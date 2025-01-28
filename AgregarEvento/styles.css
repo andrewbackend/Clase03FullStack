@@ -1,0 +1,38 @@
+/* Estilo general para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Contenedor para centrar el botón */
+  .contenedor {
+    text-align: center;
+  }
+  
+  /* Estilo del botón */
+  #miBoton {
+    background-color: #4caf50; /* Verde */
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Efecto hover (cuando se pasa el mouse) */
+  #miBoton:hover {
+    background-color: #45a049; /* Verde más oscuro */
+  }
+  
+  /* Efecto al hacer clic */
+  #miBoton:active {
+    transform: scale(0.95); /* Reduce un poco el tamañoo */
+  }
+  
