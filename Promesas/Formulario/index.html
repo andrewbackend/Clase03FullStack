@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario Profesional</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background">
+    <div class="form-container">
+      <h2>Regístrate con Nosotros</h2>
+      <p>Llena el formulario y nos pondremos en contacto contigo.</p>
+      <form id="registroForm">
+        <div class="form-group">
+          <label for="nombre">Nombre Completo</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre completo" required>
+        </div>
+        <div class="form-group">
+          <label for="correo">Correo Electrónico</label>
+          <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+        </div>
+        <div class="form-group">
+          <label for="telefono">Número de Teléfono</label>
+          <input type="tel" id="telefono" name="telefono" placeholder="+51 999 999 999" required>
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
+        </div>
+        <button type="submit" class="btn">Enviar Datos</button>
+      </form>
+      <div id="resultado" class="message"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
